@@ -1,0 +1,30 @@
+baseURL = "https://faroughdarakhshan.org/"
+languageCode = "en"
+title = "Farough Darakhshan"
+theme = "PaperMod"
+enableRobotsTXT = true
+
+[params]
+  description = "Open source tools and documentation by Farough (Frank) Darakhshan."
+  defaultTheme = "auto"
+  ShowReadingTime = false
+
+  [params.homeInfoParams]
+    Title = "Farough Darakhshan"
+    Content = ""
+
+[markup.goldmark.renderer]
+  unsafe = true
+
+[[menu.main]]
+  name = "Tools"
+  url = "/tools/"
+  weight = 1
+[[menu.main]]
+  name = "Claude Code and Codex"
+  url = "/claude-code-and-codex/"
+  weight = 2
+[[menu.main]]
+  name = "About"
+  url = "/about/"
+  weight = 3
