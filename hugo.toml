@@ -17,12 +17,12 @@ enableRobotsTXT = true
   unsafe = true
 
 [[menu.main]]
-  name = "Tools"
-  url = "/tools/"
+  name = "Projects"
+  url = "/#what-is-public"
   weight = 1
 [[menu.main]]
   name = "Claude Code and Codex"
-  url = "/claude-code-and-codex/"
+  url = "/claude-code-codex-one-person-office/"
   weight = 2
 [[menu.main]]
   name = "About"
